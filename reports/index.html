@@ -75,8 +75,7 @@
       color: #285f35;
     }
 
-    .schedule-notice,
-    .privacy-notice {
+    .schedule-notice {
       margin: 24px 0;
       padding: 16px;
       background: #fff8df;
@@ -149,11 +148,14 @@
     schedule updates can appear automatically in your calendar application.
   </p>
 
-  <aside class="schedule-notice" aria-label="Schedule accuracy notice">
-    <strong>Please note:</strong> Athletic schedules can change because of
-    weather, transportation, or other circumstances. Confirm last-minute dates,
-    times, and locations with Twinsburg High School or its athletic department.
-  </aside>
+  <section class="schedule-notice" aria-labelledby="schedule-changes-heading">
+    <h2 id="schedule-changes-heading">Schedule Changes</h2>
+    <p>
+      <strong>Please note:</strong> Athletic schedules can change because of
+      weather, transportation, or other circumstances. Confirm last-minute dates,
+      times, and locations with Twinsburg High School or its athletic department.
+    </p>
+  </section>
 
   <h2>Download Reports</h2>
   <p>Select a report to view or download it.</p>
@@ -170,15 +172,6 @@
       {% endif %}
     {% endfor %}
   </ul>
-
-  <aside class="privacy-notice" aria-labelledby="privacy-heading">
-    <h2 id="privacy-heading">Privacy</h2>
-    <p>
-      This site uses Google Analytics to understand aggregate usage, such as
-      page visits and general browser or device information. It does not
-      intentionally collect names, email addresses, or personal calendar data.
-    </p>
-  </aside>
 
   <script>
     const copyButton = document.getElementById('copy-calendar-address');
