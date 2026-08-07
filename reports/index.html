@@ -83,6 +83,45 @@
       border-radius: 4px;
     }
 
+    .coverage-list {
+      columns: 2;
+      column-gap: 32px;
+    }
+
+    .latest-report {
+      margin: 16px 0 28px;
+      padding: 20px;
+      background: #eaf2f8;
+      border: 1px solid #bfd2e3;
+      border-radius: 4px;
+    }
+
+    .latest-report h3 {
+      margin-top: 0;
+      color: #123f6d;
+    }
+
+    .report-button {
+      display: inline-block;
+      padding: 10px 16px;
+      color: #ffffff;
+      background: #0958a5;
+      border-radius: 4px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .report-button:hover,
+    .report-button:focus-visible {
+      background: #073f77;
+    }
+
+    @media (max-width: 600px) {
+      .coverage-list {
+        columns: 1;
+      }
+    }
+
     li {
       margin: 12px 0;
     }
@@ -113,6 +152,28 @@
       If you are using this project or find it helpful, I would appreciate
       hearing from you. Please email me at
       <a href="mailto:tj@tjpowell.net">tj@tjpowell.net</a>.
+    </p>
+  </section>
+
+  <section aria-labelledby="coverage-heading">
+    <h2 id="coverage-heading">What’s Included</h2>
+    <p>
+      The calendar currently combines the available Twinsburg High School fall
+      schedules for the following sports and team levels:
+    </p>
+    <ul class="coverage-list">
+      <li>Cross country</li>
+      <li>Football: varsity, JV, and freshman</li>
+      <li>Boys golf: varsity and JV</li>
+      <li>Girls golf</li>
+      <li>Boys soccer: varsity, JV, and JV-B</li>
+      <li>Girls soccer: varsity and JV</li>
+      <li>Girls tennis: varsity and JV</li>
+      <li>Volleyball: varsity, JV, and freshman</li>
+    </ul>
+    <p>
+      Coverage depends on the schedules available to this community project and
+      may not include every Twinsburg athletic event.
     </p>
   </section>
 
@@ -157,13 +218,36 @@
     </p>
   </section>
 
-  <h2>Download Reports</h2>
-  <p>Select a report to view or download it.</p>
+  <section aria-labelledby="official-sources-heading">
+    <h2 id="official-sources-heading">Official Schedule Sources</h2>
+    <p>
+      For official schedules, team information, and last-minute updates, visit
+      <a href="https://twinsburgathletics.org/">Twinsburg Athletics</a>.
+      Additional school information is available from the
+      <a href="https://www.twinsburg.k12.oh.us/ths-activities">Twinsburg City School District athletics page</a>.
+    </p>
+  </section>
 
+  <h2>Download Reports</h2>
+  <p>Open the newest report below or choose a previous report from the archive.</p>
+
+  {% assign files = site.static_files | sort: "name" | reverse %}
+  {% assign latest_report_path = "" %}
+  {% for file in files %}
+    {% if file.extname == ".pdf" and file.path contains "/reports/" and latest_report_path == "" %}
+      {% assign latest_report_path = file.path %}
+      <div class="latest-report">
+        <h3>Latest Report</h3>
+        <p>{{ file.basename | replace: "-", " " }}</p>
+        <a class="report-button" href="{{ file.path | relative_url }}">View Latest Report</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+
+  <h3>Previous Reports</h3>
   <ul>
-    {% assign files = site.static_files | sort: "name" | reverse %}
     {% for file in files %}
-      {% if file.extname == ".pdf" and file.path contains "/reports/" %}
+      {% if file.extname == ".pdf" and file.path contains "/reports/" and file.path != latest_report_path %}
         <li>
           <a href="{{ file.path | relative_url }}">
             {{ file.basename | replace: "-", " " }}
