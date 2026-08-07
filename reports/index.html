@@ -48,6 +48,42 @@
       user-select: all;
     }
 
+    .calendar-status {
+      margin: -4px 0 16px;
+      color: #445768;
+      font-size: 0.95rem;
+    }
+
+    .copy-button {
+      padding: 10px 16px;
+      color: #ffffff;
+      background: #0958a5;
+      border: 0;
+      border-radius: 4px;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 600;
+    }
+
+    .copy-button:hover,
+    .copy-button:focus-visible {
+      background: #073f77;
+    }
+
+    .copy-status {
+      margin-left: 10px;
+      color: #285f35;
+    }
+
+    .schedule-notice,
+    .privacy-notice {
+      margin: 24px 0;
+      padding: 16px;
+      background: #fff8df;
+      border-left: 5px solid #c28a00;
+      border-radius: 4px;
+    }
+
     li {
       margin: 12px 0;
     }
@@ -82,6 +118,10 @@
   </section>
 
   <h2>Subscribe to the Calendar</h2>
+  <p class="calendar-status">
+    <strong>Calendar last updated:</strong>
+    {{ site.data.calendar.last_updated | default: "August 7, 2026" }}
+  </p>
   <p>
     To receive future schedule updates automatically, subscribe to the
     iCalendar feed instead of opening or downloading it. Copy the complete
@@ -89,7 +129,11 @@
     clicking an <code>.ics</code> address normally downloads a current copy
     rather than creating a calendar subscription.
   </p>
-  <div class="subscription-address" aria-label="Twinsburg sports calendar subscription address">https://tjpowellnet.github.io/Twinsburg-High-School-Sports-Calendar/THS-Sports.ics</div>
+  <div id="calendar-address" class="subscription-address" aria-label="Twinsburg sports calendar subscription address">https://tjpowellnet.github.io/Twinsburg-High-School-Sports-Calendar/THS-Sports.ics</div>
+  <p>
+    <button id="copy-calendar-address" class="copy-button" type="button">Copy calendar address</button>
+    <span id="copy-status" class="copy-status" role="status" aria-live="polite"></span>
+  </p>
   <p>
     In Apple Calendar, Google Calendar, Outlook, or another calendar application,
     choose an option such as <strong>Add Subscription Calendar</strong>,
@@ -104,6 +148,12 @@
     This two-page guide explains how to add the calendar subscription so future
     schedule updates can appear automatically in your calendar application.
   </p>
+
+  <aside class="schedule-notice" aria-label="Schedule accuracy notice">
+    <strong>Please note:</strong> Athletic schedules can change because of
+    weather, transportation, or other circumstances. Confirm last-minute dates,
+    times, and locations with Twinsburg High School or its athletic department.
+  </aside>
 
   <h2>Download Reports</h2>
   <p>Select a report to view or download it.</p>
@@ -120,6 +170,30 @@
       {% endif %}
     {% endfor %}
   </ul>
+
+  <aside class="privacy-notice" aria-labelledby="privacy-heading">
+    <h2 id="privacy-heading">Privacy</h2>
+    <p>
+      This site uses Google Analytics to understand aggregate usage, such as
+      page visits and general browser or device information. It does not
+      intentionally collect names, email addresses, or personal calendar data.
+    </p>
+  </aside>
+
+  <script>
+    const copyButton = document.getElementById('copy-calendar-address');
+    const calendarAddress = document.getElementById('calendar-address').textContent.trim();
+    const copyStatus = document.getElementById('copy-status');
+
+    copyButton.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(calendarAddress);
+        copyStatus.textContent = 'Copied!';
+      } catch (error) {
+        copyStatus.textContent = 'Unable to copy automatically. Select and copy the address above.';
+      }
+    });
+  </script>
 
 </body>
 </html>
