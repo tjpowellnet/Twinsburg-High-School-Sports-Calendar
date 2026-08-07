@@ -29,6 +29,17 @@
       border-radius: 4px;
     }
 
+    .subscription-address {
+      margin: 16px 0;
+      padding: 14px;
+      background: #f4f6f8;
+      border: 1px solid #cad3dc;
+      border-radius: 4px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      overflow-wrap: anywhere;
+      user-select: all;
+    }
+
     li {
       margin: 12px 0;
     }
@@ -64,14 +75,20 @@
 
   <h2>Subscribe to the Calendar</h2>
   <p>
-    The subscription link is an iCalendar (<code>.ics</code>) file that you can
-    add to your favorite calendar app. Subscribing allows the app to receive
-    future calendar updates from the same link.
+    To receive future schedule updates automatically, subscribe to the
+    iCalendar feed instead of opening or downloading it. Copy the complete
+    address shown below. It is intentionally displayed as plain text because
+    clicking an <code>.ics</code> address normally downloads a current copy
+    rather than creating a calendar subscription.
   </p>
+  <div class="subscription-address" aria-label="Twinsburg sports calendar subscription address">https://tjpowellnet.github.io/Twinsburg-High-School-Sports-Calendar/THS-Sports.ics</div>
   <p>
-    <a href="{{ '/THS-Sports.ics' | relative_url }}">
-      Subscribe to the Twinsburg sports calendar
-    </a>
+    In Apple Calendar, Google Calendar, Outlook, or another calendar application,
+    choose an option such as <strong>Add Subscription Calendar</strong>,
+    <strong>New Calendar Subscription</strong>, or
+    <strong>Subscribe from URL</strong>. Paste the copied address when prompted.
+    A true subscription allows your calendar application to receive later
+    changes to dates, times, and locations.
   </p>
 
   <h2>Download Reports</h2>
