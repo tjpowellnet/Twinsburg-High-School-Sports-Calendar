@@ -5,92 +5,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Twinsburg Sports Calendar Reports</title>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KN7MH798TV"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-KN7MH798TV');
-  </script>
+  <meta http-equiv="refresh" content="0; url=https://tjpowell.net/twinsburg-high-school-sports-calendar/">
+  <link rel="canonical" href="https://tjpowell.net/twinsburg-high-school-sports-calendar/">
+  <title>Twinsburg Sports Calendar Reports Have Moved</title>
   <style>
     body {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+      max-width: 720px;
+      margin: 64px auto;
+      padding: 0 24px;
       color: #172b3a;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
-    h1,
-    h2 {
-      color: #123f6d;
-    }
-
-    .project-introduction {
-      margin-bottom: 32px;
-      padding: 20px;
+    main {
+      padding: 28px;
       background: #eaf2f8;
       border-left: 5px solid #123f6d;
       border-radius: 4px;
     }
 
-    .subscription-address {
-      margin: 16px 0;
-      padding: 14px;
-      background: #f4f6f8;
-      border: 1px solid #cad3dc;
-      border-radius: 4px;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      overflow-wrap: anywhere;
-      user-select: all;
-    }
-
-    .calendar-status {
-      margin: -4px 0 16px;
-      color: #445768;
-      font-size: 0.95rem;
-    }
-
-    .copy-button {
-      padding: 10px 16px;
-      color: #ffffff;
-      background: #0958a5;
-      border: 0;
-      border-radius: 4px;
-      cursor: pointer;
-      font: inherit;
-      font-weight: 600;
-    }
-
-    .copy-button:hover,
-    .copy-button:focus-visible {
-      background: #073f77;
-    }
-
-    .copy-status {
-      margin-left: 10px;
-      color: #285f35;
-    }
-
-    .latest-report {
-      margin: 16px 0 28px;
-      padding: 20px;
-      background: #eaf2f8;
-      border: 1px solid #bfd2e3;
-      border-radius: 4px;
-    }
-
-    .latest-report h3 {
+    h1 {
       margin-top: 0;
       color: #123f6d;
     }
 
-    .report-button {
+    a {
+      color: #0958a5;
+    }
+
+    .page-button {
       display: inline-block;
-      padding: 10px 16px;
+      margin-top: 8px;
+      padding: 11px 17px;
       color: #ffffff;
       background: #0958a5;
       border-radius: 4px;
@@ -98,130 +45,26 @@
       text-decoration: none;
     }
 
-    .report-button:hover,
-    .report-button:focus-visible {
+    .page-button:hover,
+    .page-button:focus-visible {
       background: #073f77;
-    }
-
-    li {
-      margin: 12px 0;
-    }
-
-    a {
-      color: #0958a5;
     }
   </style>
 </head>
 <body>
-  <h1>Twinsburg Sports Calendar Reports</h1>
-
-  <section class="project-introduction" aria-labelledby="about-project">
-    <h2 id="about-project">About This Project</h2>
+  <main>
+    <h1>Twinsburg Sports Calendar Reports Have Moved</h1>
     <p>
-      This community project turns Twinsburg High School sports schedules into a
-      convenient digital calendar and downloadable PDF reports. It brings events
-      from the available team schedules into one place, making it easier for
-      students, families, staff, and community members to follow upcoming games
-      and activities. Read more about how and why it was created in
-      <a href="https://tjpowell.net/2026/08/04/turning-paper-sports-schedules-a-useful-digital-calendar-pdf-report/">Turning Paper Sports Schedules into a Useful Digital Calendar and PDF Report</a>.
+      The latest Twinsburg High School sports calendar report, calendar
+      subscription information, and project details are now available on
+      T.J. Powell's website.
     </p>
+    <p>You should be redirected automatically.</p>
     <p>
-      For official schedules, team information, and last-minute updates, visit
-      <a href="https://twinsburgathletics.org/">Twinsburg Athletics</a>.
-      Additional school information is available from the
-      <a href="https://www.twinsburg.k12.oh.us/ths-activities">Twinsburg City School District athletics page</a>.
+      <a class="page-button" href="https://tjpowell.net/twinsburg-high-school-sports-calendar/">
+        Visit the Twinsburg High School Sports Calendar Page
+      </a>
     </p>
-    <p>
-      <strong>Please note:</strong> Athletic schedules can change because of
-      weather, transportation, or other circumstances. Confirm last-minute dates,
-      times, and locations with Twinsburg High School or its athletic department.
-    </p>
-    <p>
-      Questions about this project may be emailed to
-      <a href="mailto:tj@tjpowell.net">tj@tjpowell.net</a>.
-    </p>
-    <p>
-      If you are using this project or find it helpful, I would appreciate
-      hearing from you. Please email me at
-      <a href="mailto:tj@tjpowell.net">tj@tjpowell.net</a>.
-    </p>
-  </section>
-
-  <h2>Subscribe to the Calendar</h2>
-  <p class="calendar-status">
-    <strong>Calendar last updated:</strong>
-    {{ site.data.calendar.last_updated | default: "August 7, 2026" }}
-  </p>
-  <p>
-    To receive future schedule updates automatically, subscribe to the
-    iCalendar feed instead of opening or downloading it. Copy the complete
-    address shown below. It is intentionally displayed as plain text because
-    clicking an <code>.ics</code> address normally downloads a current copy
-    rather than creating a calendar subscription.
-  </p>
-  <div id="calendar-address" class="subscription-address" aria-label="Twinsburg sports calendar subscription address">https://tjpowellnet.github.io/Twinsburg-High-School-Sports-Calendar/THS-Sports.ics</div>
-  <p>
-    <button id="copy-calendar-address" class="copy-button" type="button">Copy calendar address</button>
-    <span id="copy-status" class="copy-status" role="status" aria-live="polite"></span>
-  </p>
-  <p>
-    In Apple Calendar, Google Calendar, Outlook, or another calendar application,
-    choose an option such as <strong>Add Subscription Calendar</strong>,
-    <strong>New Calendar Subscription</strong>, or
-    <strong>Subscribe from URL</strong>. Paste the copied address when prompted.
-    A true subscription allows your calendar application to receive later
-    changes to dates, times, and locations.
-  </p>
-  <p>
-    For illustrated, step-by-step instructions, download
-    <a href="{{ '/Subscribe-to-the-Twinsburg-Sports-Calendar.pdf' | relative_url }}">Subscribe to the Twinsburg Sports Calendar</a>.
-    This two-page guide explains how to add the calendar subscription so future
-    schedule updates can appear automatically in your calendar application.
-  </p>
-
-  <h2>Download Reports</h2>
-  <p>Open the newest report below or choose a previous report from the archive.</p>
-
-  {% assign files = site.static_files | sort: "name" | reverse %}
-  {% assign latest_report_path = "" %}
-  {% for file in files %}
-    {% if file.extname == ".pdf" and file.path contains "/reports/" and latest_report_path == "" %}
-      {% assign latest_report_path = file.path %}
-      <div class="latest-report">
-        <h3>Latest Report</h3>
-        <p>{{ file.basename | replace: "-", " " }}</p>
-        <a class="report-button" href="{{ file.path | relative_url }}">View Latest Report</a>
-      </div>
-    {% endif %}
-  {% endfor %}
-
-  <h3>Previous Reports</h3>
-  <ul>
-    {% for file in files %}
-      {% if file.extname == ".pdf" and file.path contains "/reports/" and file.path != latest_report_path %}
-        <li>
-          <a href="{{ file.path | relative_url }}">
-            {{ file.basename | replace: "-", " " }}
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <script>
-    const copyButton = document.getElementById('copy-calendar-address');
-    const calendarAddress = document.getElementById('calendar-address').textContent.trim();
-    const copyStatus = document.getElementById('copy-status');
-
-    copyButton.addEventListener('click', async () => {
-      try {
-        await navigator.clipboard.writeText(calendarAddress);
-        copyStatus.textContent = 'Copied!';
-      } catch (error) {
-        copyStatus.textContent = 'Unable to copy automatically. Select and copy the address above.';
-      }
-    });
-  </script>
-
+  </main>
 </body>
 </html>
