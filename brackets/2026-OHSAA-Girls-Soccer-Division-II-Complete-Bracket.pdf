@@ -26,8 +26,10 @@ endobj
 /Font <<
 /F1 6 0 R
 /F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
+/F1-1 8 0 R
+/F2 9 0 R
+/F2-0 10 0 R
+/F2-1 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -41,9 +43,10 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 50053
+/Length 51674
 >>
 stream
+q
 q
 1 0 0 1 0 0 cm
 BT
@@ -75,7 +78,7 @@ T*
 ET
 BT
 1 0 0 1 2276.592 1541 Tm
-(As of October 27\054 2026) Tj
+(As of October 29\054 2026) Tj
 T*
 ET
 BT
@@ -4037,9 +4040,7 @@ BT
 (Unofficial consolidated presentation compiled from official OHSAA brackets) Tj
 T*
 ET
-
 Q
-
 q
 0.0 0.0 2448 1584 re
 W
@@ -4117,6 +4118,149 @@ n
 S
 Q
 
+Q
+
+q
+0.0 0.0 2448 1584 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-1 12 Tf
+14.4 TL
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 337 1409.742 Tm
+(\04311 Uniontown Lake) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 337 1328.71 Tm
+(\0433 Medina Highland) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 337 1247.677 Tm
+(\0437 Padua Franciscan) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 337 1166.645 Tm
+(\0438 Green) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 337 1085.613 Tm
+(\0435 North Ridgeville) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 337 1004.581 Tm
+(\04317 Amherst Steele) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 337 923.5484 Tm
+(\0431 Hudson) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 337 842.5161 Tm
+(\04318 North Canton Hoover) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 2077.935 761.4839 Tm
+(\0432 Avon) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 2038.716 680.4516 Tm
+(\04316 Olmsted Falls) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 2037.798 599.4194 Tm
+(\0436 North Royalton) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 1990.062 275.2904 Tm
+(\0434 Brecksville\055Broadview Hts\056) Tj
+T*
+ET
+0.090196 0.196078 0.301961 rg
+BT
+/F2-1 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 1987.232 194.258 Tm
+(\04310 Cuyahoga Valley Christian) Tj
+T*
+ET
+Q
+
 
 endstream
 endobj
@@ -4140,9 +4284,9 @@ endobj
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
+/BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
-/Name /F2
+/Name /F1
 /Subtype /Type1
 /Type /Font
 >>
@@ -4156,24 +4300,44 @@ endobj
 /Type /Font
 >>
 endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
 xref
-0 10
+0 12
 0000000000 65535 f 
 0000000015 00000 n 
 0000000054 00000 n 
 0000000113 00000 n 
 0000000162 00000 n 
-0000000409 00000 n 
-0000050515 00000 n 
-0000050622 00000 n 
-0000050729 00000 n 
-0000050841 00000 n 
+0000000435 00000 n 
+0000052162 00000 n 
+0000052269 00000 n 
+0000052376 00000 n 
+0000052483 00000 n 
+0000052595 00000 n 
+0000052708 00000 n 
 trailer
 <<
-/Size 10
+/Size 12
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-50953
+52821
 %%EOF
