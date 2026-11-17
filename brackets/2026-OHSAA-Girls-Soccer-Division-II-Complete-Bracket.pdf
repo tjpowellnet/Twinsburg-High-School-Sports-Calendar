@@ -8,8 +8,8 @@ endobj
 2 0 obj
 <<
 /Type /Pages
-/Count 2
-/Kids [ 4 0 R 28 0 R ]
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
@@ -24,26 +24,26 @@ endobj
 /MediaBox [ 0 0 2448 1584 ]
 /Resources <<
 /Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F1-1 8 0 R
-/F1-10 9 0 R
-/F1-11 24 0 R
-/F1-2 10 0 R
-/F1-3 11 0 R
-/F1-4 12 0 R
-/F1-5 13 0 R
-/F1-6 14 0 R
-/F1-7 15 0 R
-/F1-8 16 0 R
-/F1-9 17 0 R
-/F2 18 0 R
-/F2-0 19 0 R
-/F2-1 20 0 R
-/F2-2 21 0 R
-/F2-3 22 0 R
-/F2-4 23 0 R
-/F2-5 25 0 R
+/F1 8 0 R
+/F1-0 9 0 R
+/F1-1 10 0 R
+/F1-10 11 0 R
+/F1-11 12 0 R
+/F1-2 13 0 R
+/F1-3 14 0 R
+/F1-4 15 0 R
+/F1-5 16 0 R
+/F1-6 17 0 R
+/F1-7 18 0 R
+/F1-8 19 0 R
+/F1-9 20 0 R
+/F2 21 0 R
+/F2-0 22 0 R
+/F2-1 23 0 R
+/F2-2 24 0 R
+/F2-3 25 0 R
+/F2-4 26 0 R
+/F2-5 27 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -56,191 +56,8 @@ endobj
 >>
 endobj
 5 0 obj
-[ 26 0 R 27 0 R ]
-endobj
-6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-7 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-8 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-11 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-12 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-13 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-14 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-15 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-16 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-17 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-18 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-19 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-20 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-21 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-22 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-23 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-24 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-25 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-26 0 obj
-<<
-/Length 60779
+/Length 61011
 >>
 stream
 q
@@ -374,7 +191,7 @@ BT
 ET
 BT
 1 0 0 1 910 1451 Tm
-(Sat\056\054 Nov\056 7 \055 See page 2) Tj
+(Sat\056\054 Nov\056 7) Tj
 T*
 ET
 0.184314 0.4 0.564706 rg
@@ -394,7 +211,7 @@ BT
 ET
 BT
 1 0 0 1 1084 1451 Tm
-(Tue\056\054 Nov\056 10 \055 See page 2) Tj
+(Tue\056\054 Nov\056 10) Tj
 T*
 ET
 0.184314 0.4 0.564706 rg
@@ -474,7 +291,7 @@ BT
 ET
 BT
 1 0 0 1 1485.617 1451 Tm
-(Sat\056\054 Nov\056 7 \055 See page 2) Tj
+(Sat\056\054 Nov\056 7) Tj
 T*
 ET
 0.184314 0.4 0.564706 rg
@@ -494,7 +311,7 @@ BT
 ET
 BT
 1 0 0 1 1306.56 1451 Tm
-(Tue\056\054 Nov\056 10 \055 See page 2) Tj
+(Tue\056\054 Nov\056 10) Tj
 T*
 ET
 0.184314 0.4 0.564706 rg
@@ -4178,7 +3995,7 @@ BT
 ET
 BT
 1 0 0 1 1162.049 1451 Tm
-(Verified future schedule\072 page 2) Tj
+() Tj
 T*
 ET
 0.654902 0.721569 0.784314 RG
@@ -5084,16 +4901,7 @@ BT
 14.4 TL
 ET
 Q
-
 Q
-
-endstream
-endobj
-27 0 obj
-<<
-/Length 332
->>
-stream
 q
 0.0 0.0 2448 1584 re
 W
@@ -5127,51 +4935,13 @@ Q
 
 endstream
 endobj
-28 0 obj
-<<
-/Annots [ 29 0 R ]
-/Contents 30 0 R
-/MediaBox [ 0 0 1224 792 ]
-/Resources <<
-/Font 31 0 R
-/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Parent 2 0 R
->>
+6 0 obj
+null
 endobj
-29 0 obj
-<<
-/A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057myohsaa\056org\057Admin\057Bracket\057PublicBracket\077TournamentId\0755744)
->>
-/Border [ 0 0 0 ]
-/Rect [ 30 144 800 158 ]
-/Subtype /Link
-/Type /Annot
->>
+7 0 obj
+null
 endobj
-30 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ]
-/Length 2787
->>
-stream
-GauaADf_DZ&r5B-;s_]!1GqHbr9MRp1Y=$/XUQ_@jCY9-W3+".fT6J#S_UatriRq%:1I4C8"!*bRk1d.+WdbmOpJ#]6gE"n)IOE"knsLg+he,s'F+(Ah"X97D3``X./9L)(+>XHQU#P7P2WMi@<`;oJ>W_a[st!B&#`:U*[so04AoIYNCU@>7U/:c\cqUB5#@L_&54:gJ['F\7:+o)kJ=\F:*YRHdDudsJG:4Bs(m)4V6,.Zm?hh:W-r%C,/$_H!_[d)k#o!A,[3N:,o)2U^>t3sMSjq[=fn>hf=V5F.4\_8BT%/A/g4@[-J=nVSunS,\]&WOhqk7%'OAuTlo$HH8VNc19).k=]n0'3k^8@J`?qIu9MfQ&X#AP+D-.!"GI>OD';*BS0VJ($lE&;NH?3C;c$Ars9GQHGD,QqXphd"!:"q`dp@B:X4f[3T4_c>2oVaM8<f]Z9oLM^RN?0OT\ig\tN?3pfFF#5/>Mfj_h/C;^l\dKHnQoP:QK(]OBtO.L7/K$l\dVufJS8:s^;7g2$=Vc!?FJ8;eHCN?meSZH]#.Us]rPUYL[a\`)h7bFaMkU@?9Cl\q/Z(WL%r5N<nPpb5I\Z2P%2tph&,JsnKZ@<]T*?@@SuX#4:l:7f#;_-`i<FTU,NOoZVG_Ri#gg+,nQ+(g92t7;ln8MLl0JGV<WC2q2.D_Z?;^1'TP-M,P_'ZW7k*C.Tt6uUoJAg40Br;Z:)B'0T?b`HI4"JJ86Nmh(Z]pk-7l.](CcEi=2A@a"pZo1-SmARNTl3QKb5bNR^e,eN[AXpi,2O^:9m"T>t&qM0D.7BJ^$I.JQ1G:[0]k6@:I=XK'W1]0(:C#fj0!haaOUAe%Mh1634i(pSN'V%SK/;^tYN(Sqc;Y2'B"]^hpu(IkPLLX*7re9A+4R1:8;VAi7[P(TVj]5U4o6rgN`2sY)j"c:M5flLSVKbQAhSF@l*98kF%9H=[E2`b'j/G$PWZoV?S.GU7YR@8P+Pc<hN2=[p]7h>k`c4hKu-\.Y"aoO2<Y$Bk.T#id1b6B%X93u5"$H[rT_6,jm4u,Te:>g6S2ZY:'\2S@>21#?O;(oMK?9,a_Ck94h0]i]>L7p^*ZAgPj@2LuaqTL4FP\q2'+U:G[lpVBW22Thu`$l*I@i%Yc)Usnr_2amcbS]:5r&>D3+st4r`8^=d^Lg?;E,QL<CA)+6U>?=9]'n.D146Xm)T;6oFak#&Lb:.Sjn!h**U%uq98?%E'd*pZ(^h$J_]T@U&7f<:9PSdu7r@sHk`[INQTgh+IHZlofCZT0ptX\c"U0@=bAm04m[%*N%Y)BDPpTZ,T7\@R"!SSnj0J_UJ+We\jGj>$gB\r4r<?5ta--RXd*UVW_W.DA)FB:t]ciW=faC-'H4qY7]j6X\npF,q@g+L&k]5s=1NLLkr@c\Y3@p3^boJbO0cBkG7NGnW-Vma6Jb-qtpm53+W,%\_+H37)*,>+)E@=\o2hr#'HZ:H2Y=<FG>l$/b%'e!.YqpHnTu>fuT$$;P&c\ZBfFS;jQmVQQQ.5+'0M1`!&C$Pe^=pb4/>g;6q%CUUIUU5YonI?$h`r/dqpE?o5Yb>!\e%kuHphmOnbL@r)k#DW;Dj[[+!sh+R_:,7W7Nc=fQ6V<fL-4Ef?$W9;glY/6b^(j#K!??,S?jk?A@V[eT#-cq!Ab*eHSEQa5`!W`)PWVbO200VKQ<!ASUqt;Pmb^Mt9!Am\\B.jj5tY=0$A(X>l10om2gue^J:VR>HBq00l?-fFV!hTA;2g\\!\ebcOmhXnAi18[N\DMJ9'V:2j`YpSLi_VU:/kM0as*lQ5j2Tot^J7X6ar_Im0h:N2M9Z9+#3::4?s.\4I[b#\sA.MrqHI_U3O%e-K.I8)UgOj9/LMsUWE$&2k"I$riIW?B(1J/Y3s=7mTbA6N6MLS-E1HfHSQPL)M+8eaCTrk*4ZC.ha"q4-5]Ljj<7+`kr+b1Cp(54[<e'!.k/oKLOfi&Z,r-,j6KM*2i';J$=o9;NYZRduaWU@!CK^.rH/45#iHgL`qrM'/'6fr'1`.+^3='HMZNO+sI,R[I)MOM`K6?%hXaocrqJh+NC)6JQ8>hJACKRH$eMSi[s&PdFG=5Y]Za@Ep,N0>%<PM6_OQPUP4#eQSR"[c@?OVhm6%X#*%XhUl_9+<&gY;(Z42K2Cpoa$h!s2qdq"nK`,qZa5FQ\"'[6Dn\or&(jaGbOhL?J!R%Gl^g0B,?1gVY7sKu>Xo4h0r1&@?k^fVW[\7[Zq0>HlC8Z91Q;8*@8u_<]?[t?dT4hRSjrNjZi7ZfTt[DlU`0]Y8]dYDRa:d'c\Z,p9Op_PM,tQQITp8+&;93o$A0GfNmdTDj.A;95ua?(SPafD;YMeY:*6uKlpBNrnZXldX>T$HCK@joN/'L$fLFS^`F3OoUc%1@CF3mi`8SumG(qneES-_JeXH$423YI$`8Sum[WXQ@ES-`Qp*mshCSpJtMSl"<DBI;UIR^)\6t>ZlT-'0%<NS2;Xm]7HD63B+eL"KNIQq$G@anHK]sE0iIt"fIo=6#I#PV&Q#q<,Znn%=eoX\'$FIThsH@<6$2?ekkUqicUI7UZDKEZk`f`L_\\$(,&ZV#dnkeNW7=kRTn?R@(0Gm+_Jn#Ng#nc_ucbf:L39%&t++eLF`r;LsdG+!9+3A9>Q^WfW].[!<9_Juc"]T<>C\N_'$,[Z&A5(].DU#(olJh$YnR2F(c!#$Gu`O=+)XK%'He*6,n.:8B4U?';LWO#^)g$''#_EG(t0>unpS,`JJZ-ZVt._o9dV40,MK&Pd?SsPTW~>
-endstream
-endobj
-31 0 obj
-<<
-/F1 32 0 R
-/F2 33 0 R
->>
-endobj
-32 0 obj
+8 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -5180,7 +4950,169 @@ endobj
 /Type /Font
 >>
 endobj
-33 0 obj
+9 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
 <<
 /BaseFont /Helvetica-Bold
 /Encoding /WinAnsiEncoding
@@ -5190,47 +5122,41 @@ endobj
 >>
 endobj
 xref
-0 34
+0 28
 0000000000 65535 f 
 0000000015 00000 n 
 0000000054 00000 n 
-0000000120 00000 n 
-0000000169 00000 n 
-0000000626 00000 n 
-0000000659 00000 n 
-0000000766 00000 n 
-0000000873 00000 n 
-0000000980 00000 n 
-0000001087 00000 n 
-0000001195 00000 n 
-0000001303 00000 n 
-0000001411 00000 n 
-0000001519 00000 n 
-0000001627 00000 n 
-0000001735 00000 n 
-0000001843 00000 n 
-0000001951 00000 n 
-0000002064 00000 n 
-0000002177 00000 n 
-0000002290 00000 n 
-0000002403 00000 n 
-0000002516 00000 n 
-0000002629 00000 n 
-0000002737 00000 n 
-0000002850 00000 n 
-0000063683 00000 n 
-0000064067 00000 n 
-0000064279 00000 n 
-0000064503 00000 n 
-0000067383 00000 n 
-0000067427 00000 n 
-0000067535 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000621 00000 n 
+0000061685 00000 n 
+0000061705 00000 n 
+0000061725 00000 n 
+0000061832 00000 n 
+0000061939 00000 n 
+0000062047 00000 n 
+0000062155 00000 n 
+0000062263 00000 n 
+0000062371 00000 n 
+0000062479 00000 n 
+0000062587 00000 n 
+0000062695 00000 n 
+0000062803 00000 n 
+0000062911 00000 n 
+0000063019 00000 n 
+0000063127 00000 n 
+0000063240 00000 n 
+0000063353 00000 n 
+0000063466 00000 n 
+0000063579 00000 n 
+0000063692 00000 n 
+0000063805 00000 n 
 trailer
 <<
-/Size 34
+/Size 28
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-67648
+63918
 %%EOF
